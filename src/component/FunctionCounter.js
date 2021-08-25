@@ -1,6 +1,7 @@
-import { func } from "assert-plus";
 import React, { useState } from "react";
 import '../App.css'
+
+
 const FunctionCounter = () => {
 
     const [count, setCount] = useState(0);
@@ -13,6 +14,7 @@ const FunctionCounter = () => {
         setCount(count - 1);
     }
 
+    //display
     return (
         <>
           <h1 className="count-display">{count}</h1>
