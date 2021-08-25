@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+.count-display {
+  padding: 50px 20px;
+  border: solid thin orange;
+  font-size: 10vw;
+  max-height: 200px;
+  text-align: center;
+  background: rgb(126, 126, 126);
+  color: #fff;
+}
+
+.count-button {
+  padding: 20px;
+  margin: 20px;
+  color: #fff;
+  background: orange;
+  border: none;
+  border-radius: 10px;
+}
